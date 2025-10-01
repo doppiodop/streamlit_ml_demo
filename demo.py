@@ -5,18 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report, confusion_matrix, roc_curve, auc
-from transformers import pipeline
-from PIL import Image
-import torch
-import torchvision.transforms as transforms
-from torchvision import models
 import shap
-import seaborn as sns
-from sentence_transformers import SentenceTransformer
-import random
-import torch
-
 import os
 from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
